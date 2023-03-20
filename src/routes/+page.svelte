@@ -71,7 +71,7 @@
         <div class="sidebar-profile-box">
             <img src="totoribert.jpeg" alt="Svelte" width="100%">
             <div class="sidebar-profile-info">
-                <img src="favicon.png" alt="Svelte">
+                <img src="naxicap.jpg" alt="Svelte">
                 <h1>Thomas Ribert</h1>
                 <h3>Private Equity Analyst at Naxicap Partners</h3>
                 <ul>
@@ -130,7 +130,7 @@
 
         <div class="post">
             <div class="post-author">
-                <img src="favicon.png" alt="Svelte">
+                <img src="totoribert.jpeg" alt="Svelte">
                 <div>
                     <h1>Thomas Ribert</h1>
                     <small>Private Equity Analyst at Naxicap Partners</small>
@@ -144,7 +144,7 @@
                 - Why can’t the government insure % of deposits instead of only $250k?<br>
                 As we are approaching Easter. Let’s remember not to put all our eggs in the same basket. It’s time for a new era of startup and tech industry financing, and it is going to be wild IMO. #svb #bankrun #management
             </p>
-            <img src="favicon.png" alt="Svelte" width="100%">
+            <img src="svb.jpeg" alt="Svelte" width="100%">
             
             <div class="post-stats">
                 <div>
@@ -183,7 +183,7 @@
 
         <div class="post">
             <div class="post-author">
-                <img src="favicon.png" alt="Svelte">
+                <img src="totoribert.jpeg" alt="Svelte">
                 <div>
                     <h1>Thomas Ribert</h1>
                     <small>Private Equity Analyst at Naxicap Partners</small>
@@ -197,7 +197,7 @@
                 - Why can’t the government insure % of deposits instead of only $250k?<br>
                 As we are approaching Easter. Let’s remember not to put all our eggs in the same basket. It’s time for a new era of startup and tech industry financing, and it is going to be wild IMO. #svb #bankrun #management
             </p>
-            <img src="favicon.png" alt="Svelte" width="100%">
+            <img src="svb.jpeg" alt="Svelte" width="100%">
             
             <div class="post-stats">
                 <div>
@@ -236,7 +236,7 @@
 
         <div class="post">
             <div class="post-author">
-                <img src="favicon.png" alt="Svelte">
+                <img src="totoribert.jpeg" alt="Svelte">
                 <div>
                     <h1>Thomas Ribert</h1>
                     <small>Private Equity Analyst at Naxicap Partners</small>
@@ -250,7 +250,7 @@
                 - Why can’t the government insure % of deposits instead of only $250k?<br>
                 As we are approaching Easter. Let’s remember not to put all our eggs in the same basket. It’s time for a new era of startup and tech industry financing, and it is going to be wild IMO. #svb #bankrun #management
             </p>
-            <img src="favicon.png" alt="Svelte" width="100%">
+            <img src="svb.jpeg" alt="Svelte" width="100%">
             
             <div class="post-stats">
                 <div>
@@ -289,7 +289,7 @@
 
         <div class="post">
             <div class="post-author">
-                <img src="favicon.png" alt="Svelte">
+                <img src="totoribert.jpeg" alt="Svelte">
                 <div>
                     <h1>Thomas Ribert</h1>
                     <small>Private Equity Analyst at Naxicap Partners</small>
@@ -303,7 +303,7 @@
                 - Why can’t the government insure % of deposits instead of only $250k?<br>
                 As we are approaching Easter. Let’s remember not to put all our eggs in the same basket. It’s time for a new era of startup and tech industry financing, and it is going to be wild IMO. #svb #bankrun #management
             </p>
-            <img src="favicon.png" alt="Svelte" width="100%">
+            <img src="svb.jpeg" alt="Svelte" width="100%">
             
             <div class="post-stats">
                 <div>
