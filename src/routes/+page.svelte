@@ -1,7 +1,7 @@
 <!---NAVBAR-->
 <nav class="navbar">
     <div class="navbar-left">
-        <a href="index.html" class="logo"><img src="favicon.png" alt="Svelte"></a>
+        <a href="index.html" class="logo"><img src="Logo.png" alt="Svelte"></a>
         <div class="search-box">
             <img src="favicon.png" alt="Svelte">
             <input type="text" placeholder="Search">
@@ -16,7 +16,7 @@
     </div>
     <div class="navbar-right">
         <div class="online">
-            <img src="favicon.png" alt="Svelte" class="nav-profile-img" onclick="toggleMenu()">
+            <img src="totoribert.jpeg" alt="Svelte" class="nav-profile-img" onclick="toggleMenu()">
         </div>
     </div>
 
@@ -24,7 +24,7 @@
     <div class="profile-menu-wrap" id="profileMenu">
         <div class="profile-menu">
             <div class="user-info">
-                <img src="favicon.png" alt="Svelte">
+                <img src="totoribert.jpeg" alt="Svelte">
                 <div>
                     <h3>Thomas Ribert</h3>
                     <a href="#">See your profile</a>
@@ -69,7 +69,7 @@
     <!---LEFT-SIDEBAR-->
     <div class="left-sidebar">
         <div class="sidebar-profile-box">
-            <img src="favicon.png" alt="Svelte" width="100%">
+            <img src="totoribert.jpeg" alt="Svelte" width="100%">
             <div class="sidebar-profile-info">
                 <img src="favicon.png" alt="Svelte">
                 <h1>Thomas Ribert</h1>
