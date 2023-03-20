@@ -1,22 +1,22 @@
 <!---NAVBAR-->
 <nav class="navbar">
     <div class="navbar-left">
-        <a href="index.html" class="logo"><img src="$src/images/Logo.png"></a>
+        <a href="index.html" class="logo"><img src="static/favicon.png" alt="Svelte"></a>
         <div class="search-box">
-            <img src="images/search.png">
+            <img src="static/favicon.png" alt="Svelte">
             <input type="text" placeholder="Search">
         </div>
     </div>
     <div class="navbar-center">
         <ul>
-            <li><a href="#" class="active-link"><img src="$src/images/home.png"><span>Home Feed</span></a></li>
-            <li><a href="#"><img src="$src/images/network.png"><span>My Network</span></a></li>
-            <li><a href="#"><img src="$src/images/jobs.png"><span>Groups</span></a></li>
+            <li><a href="#" class="active-link"><img src="static/favicon.png" alt="Svelte"><span>Home Feed</span></a></li>
+            <li><a href="#"><img src="static/favicon.png" alt="Svelte"><span>My Network</span></a></li>
+            <li><a href="#"><img src="static/favicon.png" alt="Svelte"><span>Groups</span></a></li>
         </ul>
     </div>
     <div class="navbar-right">
         <div class="online">
-            <img src="$src/images/user-1.png" class="nav-profile-img" onclick="toggleMenu()">
+            <img src="static/favicon.png" alt="Svelte" class="nav-profile-img" onclick="toggleMenu()">
         </div>
     </div>
 
@@ -24,7 +24,7 @@
     <div class="profile-menu-wrap" id="profileMenu">
         <div class="profile-menu">
             <div class="user-info">
-                <img src="$src/images/user-1.png">
+                <img src="static/favicon.png" alt="Svelte">
                 <div>
                     <h3>Thomas Ribert</h3>
                     <a href="#">See your profile</a>
@@ -32,27 +32,27 @@
             </div>
             <hr>
             <a href="#" class="profile-menu-link">
-                <img src="$src/images/feedback.png">
+                <img src="static/favicon.png" alt="Svelte">
                 <p>Give Feedback</p>
                 <span>></span>
             </a>
             <a href="#" class="profile-menu-link">
-                <img src="$src/images/setting.png">
+                <img src="static/favicon.png" alt="Svelte">
                 <p>Settings & Privacy</p>
                 <span>></span>
             </a>
             <a href="#" class="profile-menu-link">
-                <img src="$src/images/help.png">
+                <img src="static/favicon.png" alt="Svelte">
                 <p>Help & Support</p>
                 <span>></span>
             </a>
             <a href="#" class="profile-menu-link">
-                <img src="$src/images/display.png">
+                <img src="static/favicon.png" alt="Svelte">
                 <p>Display & Accessibility</p>
                 <span>></span>
             </a>
             <a href="#" class="profile-menu-link">
-                <img src="$src/images/logout.png">
+                <img src="static/favicon.png" alt="Svelte">
                 <p>Logout</p>
                 <span>></span>
             </a>
@@ -69,9 +69,9 @@
     <!---LEFT-SIDEBAR-->
     <div class="left-sidebar">
         <div class="sidebar-profile-box">
-            <img src="$src/images/cover-pic.png" width="100%">
+            <img src="static/favicon.png" alt="Svelte" width="100%">
             <div class="sidebar-profile-info">
-                <img src="$src/images/user-1.png">
+                <img src="static/favicon.png" alt="Svelte">
                 <h1>Thomas Ribert</h1>
                 <h3>Private Equity Analyst at Naxicap Partners</h3>
                 <ul>
@@ -81,29 +81,27 @@
                 </ul>
             </div>
             <div class="sidebar-profile-link">
-                <a href="#"><img src="$src/images/items.png">My items</a>
-                <a href="#"><img src="$src/images/premium.png">Try premium</a>
+                <a href="#"><img src="static/favicon.png" alt="Svelte">My items</a>
+                <a href="#"><img src="static/favicon.png" alt="Svelte">Try premium</a>
             </div>
         </div>
         <div class="sidebar-activity">
             <h3>RECENT</h3>
-            <a href="#"><img src="$src/images/recent.png">Web Development</a>
-            <a href="#"><img src="$src/images/recent.png">User Interface</a>
-            <a href="#"><img src="$src/images/recent.png">Online Learning</a>
-            <a href="#"><img src="$src/images/recent.png">Learn Online</a>
-            <a href="#"><img src="$src/images/recent.png">Code Better</a>
-            <a href="#"><img src="$src/images/recent.png">Group Learning</a>
+            <a href="#"><img src="static/favicon.png" alt="Svelte">Private Equity</a>
+            <a href="#"><img src="static/favicon.png" alt="Svelte">Private Equity</a>
+            <a href="#"><img src="static/favicon.png" alt="Svelte">Private Equity</a>
+            <a href="#"><img src="static/favicon.png" alt="Svelte">Private Equity</a>
             <h3>GROUPS</h3>
-            <a href="#"><img src="$src/images/group.png">Web Design Group</a>
-            <a href="#"><img src="$src/images/group.png">HTML Group</a>
-            <a href="#"><img src="$src/images/group.png">CSS Group</a>
-            <a href="#"><img src="$src/images/group.png">Help Group</a>
+            <a href="#"><img src="static/favicon.png" alt="Svelte">M&A Group</a>
+            <a href="#"><img src="static/favicon.png" alt="Svelte">M&A Group</a>
+            <a href="#"><img src="static/favicon.png" alt="Svelte">M&A Group</a>
+            <a href="#"><img src="static/favicon.png" alt="Svelte">M&A Group</a>
             <h3>HASHTAG</h3>
-            <a href="#"><img src="$src/images/hashtag.png">webdevelopment</a>
-            <a href="#"><img src="$src/images/hashtag.png">userinterface</a>
-            <a href="#"><img src="$src/images/hashtag.png">onlinelearning</a>
+            <a href="#"><img src="static/favicon.png" alt="Svelte">PE</a>
+            <a href="#"><img src="static/favicon.png" alt="Svelte">Shark</a>
+            <a href="#"><img src="static/favicon.png" alt="Svelte">Internship</a>
             <div class="discover-more-link">
-                <a href="#">Discover more</a>
+                <a href="#">More</a>
             </div>
         </div>
     </div>
@@ -114,25 +112,25 @@
         
         <div class="create-post">
             <div class="create-post-input">
-                <img src="$src/images/user-1.png">
+                <img src="static/favicon.png" alt="Svelte">
                 <textarea rows="2" placeholder="Write a new post"></textarea>
             </div>
             <div class="create-post-links">
-                <li><img src="$src/images/user-1.png">Photo</li>
-                <li><img src="$src/images/user-1.png">Video</li>
-                <li><img src="$src/images/user-1.png">Article</li>
-                <li><img src="$src/images/user-1.png">Post</li>
+                <li><img src="static/favicon.png" alt="Svelte">Photo</li>
+                <li><img src="static/favicon.png" alt="Svelte">Video</li>
+                <li><img src="static/favicon.png" alt="Svelte">Article</li>
+                <li><img src="static/favicon.png" alt="Svelte">Post</li>
             </div>
         </div>
         
         <div class="sort-by">
             <hr>
-            <p>Sort by: <span>top <img src="$src/images/user-1.png"></span></p>
+            <p>Sort by: <span>top <img src="static/favicon.png" alt="Svelte"></span></p>
         </div>
 
         <div class="post">
             <div class="post-author">
-                <img src="$src/images/user-1.png">
+                <img src="static/favicon.png" alt="Svelte">
                 <div>
                     <h1>Thomas Ribert</h1>
                     <small>Private Equity Analyst at Naxicap Partners</small>
@@ -146,13 +144,13 @@
                 - Why can’t the government insure % of deposits instead of only $250k?<br>
                 As we are approaching Easter. Let’s remember not to put all our eggs in the same basket. It’s time for a new era of startup and tech industry financing, and it is going to be wild IMO. #svb #bankrun #management
             </p>
-            <img src="$src/images/user-1.png" alt="SVB bank" width="100%">
+            <img src="static/favicon.png" alt="Svelte" width="100%">
             
             <div class="post-stats">
                 <div>
-                    <img src="$src/images/thumbsup.png">
-                    <img src="$src/images/love.png">
-                    <img src="$src/images/clap.png">
+                    <img src="static/favicon.png" alt="Svelte">
+                    <img src="static/favicon.png" alt="Svelte">
+                    <img src="static/favicon.png" alt="Svelte">
                     <span class="liked-users">Estelle Louviot and 31 others</span>
                 </div>
                 <div>
@@ -161,23 +159,23 @@
             </div>
             <div class="post-activity">
                 <div>
-                    <img src="$src/images/user-1.png" class="post-activity-user-icon">
-                    <img src="$src/images/down-arrow.png" class="post-activity-arrow-icon">
+                    <img src="static/favicon.png" alt="Svelte" class="post-activity-user-icon">
+                    <img src="static/favicon.png" alt="Svelte" class="post-activity-arrow-icon">
                 </div>
                 <div class="post-activity-link">
-                    <img src="$src/images/like.png">
+                    <img src="static/favicon.png" alt="Svelte">
                     <span>Like</span>
                 </div>
                 <div class="post-activity-link">
-                    <img src="$src/images/comment.png">
+                    <img src="static/favicon.png" alt="Svelte">
                     <span>Comment</span>
                 </div>
                 <div class="post-activity-link">
-                    <img src="$src/images/share.png">
+                    <img src="static/favicon.png" alt="Svelte">
                     <span>Share</span>
                 </div>
                 <div class="post-activity-link">
-                    <img src="$src/images/send.png">
+                    <img src="static/favicon.png" alt="Svelte">
                     <span>Send</span>
                 </div>
             </div>
@@ -185,7 +183,7 @@
 
         <div class="post">
             <div class="post-author">
-                <img src="$src/images/user-1.png">
+                <img src="static/favicon.png" alt="Svelte">
                 <div>
                     <h1>Thomas Ribert</h1>
                     <small>Private Equity Analyst at Naxicap Partners</small>
@@ -199,13 +197,13 @@
                 - Why can’t the government insure % of deposits instead of only $250k?<br>
                 As we are approaching Easter. Let’s remember not to put all our eggs in the same basket. It’s time for a new era of startup and tech industry financing, and it is going to be wild IMO. #svb #bankrun #management
             </p>
-            <img src="$src/images/user-1.png" alt="SVB bank" width="100%">
+            <img src="static/favicon.png" alt="Svelte" width="100%">
             
             <div class="post-stats">
                 <div>
-                    <img src="$src/images/thumbsup.png">
-                    <img src="$src/images/love.png">
-                    <img src="$src/images/clap.png">
+                    <img src="static/favicon.png" alt="Svelte">
+                    <img src="static/favicon.png" alt="Svelte">
+                    <img src="static/favicon.png" alt="Svelte">
                     <span class="liked-users">Estelle Louviot and 31 others</span>
                 </div>
                 <div>
@@ -214,23 +212,23 @@
             </div>
             <div class="post-activity">
                 <div>
-                    <img src="$src/images/user-1.png" class="post-activity-user-icon">
-                    <img src="$src/images/down-arrow.png" class="post-activity-arrow-icon">
+                    <img src="static/favicon.png" alt="Svelte" class="post-activity-user-icon">
+                    <img src="static/favicon.png" alt="Svelte" class="post-activity-arrow-icon">
                 </div>
                 <div class="post-activity-link">
-                    <img src="$src/images/like.png">
+                    <img src="static/favicon.png" alt="Svelte">
                     <span>Like</span>
                 </div>
                 <div class="post-activity-link">
-                    <img src="$src/images/comment.png">
+                    <img src="static/favicon.png" alt="Svelte">
                     <span>Comment</span>
                 </div>
                 <div class="post-activity-link">
-                    <img src="$src/images/share.png">
+                    <img src="static/favicon.png" alt="Svelte">
                     <span>Share</span>
                 </div>
                 <div class="post-activity-link">
-                    <img src="$src/images/send.png">
+                    <img src="static/favicon.png" alt="Svelte">
                     <span>Send</span>
                 </div>
             </div>
@@ -238,7 +236,7 @@
 
         <div class="post">
             <div class="post-author">
-                <img src="$src/images/user-1.png">
+                <img src="static/favicon.png" alt="Svelte">
                 <div>
                     <h1>Thomas Ribert</h1>
                     <small>Private Equity Analyst at Naxicap Partners</small>
@@ -252,13 +250,13 @@
                 - Why can’t the government insure % of deposits instead of only $250k?<br>
                 As we are approaching Easter. Let’s remember not to put all our eggs in the same basket. It’s time for a new era of startup and tech industry financing, and it is going to be wild IMO. #svb #bankrun #management
             </p>
-            <img src="$src/images/user-1.png" alt="SVB bank" width="100%">
+            <img src="static/favicon.png" alt="Svelte" width="100%">
             
             <div class="post-stats">
                 <div>
-                    <img src="$src/images/thumbsup.png">
-                    <img src="$src/images/love.png">
-                    <img src="$src/images/clap.png">
+                    <img src="static/favicon.png" alt="Svelte">
+                    <img src="static/favicon.png" alt="Svelte">
+                    <img src="static/favicon.png" alt="Svelte">
                     <span class="liked-users">Estelle Louviot and 31 others</span>
                 </div>
                 <div>
@@ -267,23 +265,23 @@
             </div>
             <div class="post-activity">
                 <div>
-                    <img src="$src/images/user-1.png" class="post-activity-user-icon">
-                    <img src="$src/images/down-arrow.png" class="post-activity-arrow-icon">
+                    <img src="static/favicon.png" alt="Svelte" class="post-activity-user-icon">
+                    <img src="static/favicon.png" alt="Svelte" class="post-activity-arrow-icon">
                 </div>
                 <div class="post-activity-link">
-                    <img src="$src/images/like.png">
+                    <img src="static/favicon.png" alt="Svelte">
                     <span>Like</span>
                 </div>
                 <div class="post-activity-link">
-                    <img src="$src/images/comment.png">
+                    <img src="static/favicon.png" alt="Svelte">
                     <span>Comment</span>
                 </div>
                 <div class="post-activity-link">
-                    <img src="$src/images/share.png">
+                    <img src="static/favicon.png" alt="Svelte">
                     <span>Share</span>
                 </div>
                 <div class="post-activity-link">
-                    <img src="$src/images/send.png">
+                    <img src="static/favicon.png" alt="Svelte">
                     <span>Send</span>
                 </div>
             </div>
@@ -291,7 +289,7 @@
 
         <div class="post">
             <div class="post-author">
-                <img src="$src/images/user-1.png">
+                <img src="static/favicon.png" alt="Svelte">
                 <div>
                     <h1>Thomas Ribert</h1>
                     <small>Private Equity Analyst at Naxicap Partners</small>
@@ -305,13 +303,13 @@
                 - Why can’t the government insure % of deposits instead of only $250k?<br>
                 As we are approaching Easter. Let’s remember not to put all our eggs in the same basket. It’s time for a new era of startup and tech industry financing, and it is going to be wild IMO. #svb #bankrun #management
             </p>
-            <img src="$src/images/user-1.png" alt="SVB bank" width="100%">
+            <img src="static/favicon.png" alt="Svelte" width="100%">
             
             <div class="post-stats">
                 <div>
-                    <img src="$src/images/thumbsup.png">
-                    <img src="$src/images/love.png">
-                    <img src="$src/images/clap.png">
+                    <img src="static/favicon.png" alt="Svelte">
+                    <img src="static/favicon.png" alt="Svelte">
+                    <img src="static/favicon.png" alt="Svelte">
                     <span class="liked-users">Estelle Louviot and 31 others</span>
                 </div>
                 <div>
@@ -320,23 +318,23 @@
             </div>
             <div class="post-activity">
                 <div>
-                    <img src="$src/images/user-1.png" class="post-activity-user-icon">
-                    <img src="$src/images/down-arrow.png" class="post-activity-arrow-icon">
+                    <img src="static/favicon.png" alt="Svelte" class="post-activity-user-icon">
+                    <img src="static/favicon.png" alt="Svelte" class="post-activity-arrow-icon">
                 </div>
                 <div class="post-activity-link">
-                    <img src="$src/images/like.png">
+                    <img src="static/favicon.png" alt="Svelte">
                     <span>Like</span>
                 </div>
                 <div class="post-activity-link">
-                    <img src="$src/images/comment.png">
+                    <img src="static/favicon.png" alt="Svelte">
                     <span>Comment</span>
                 </div>
                 <div class="post-activity-link">
-                    <img src="$src/images/share.png">
+                    <img src="static/favicon.png" alt="Svelte">
                     <span>Share</span>
                 </div>
                 <div class="post-activity-link">
-                    <img src="$src/images/send.png">
+                    <img src="static/favicon.png" alt="Svelte">
                     <span>Send</span>
                 </div>
             </div>
@@ -348,7 +346,7 @@
     <!---RIGHT-SIDEBAR-->
     <div class="right-sidebar">
         <div class="sidebar-news">
-            <img src="$src/images/more.png" class="info-icon">
+            <img src="static/favicon.png" alt="Svelte" class="info-icon">
             <h3>Trending News</h3>
             <a href="#">Article 1</a>
             <span>1h ago &middot; 1,000 readers</span>
@@ -371,10 +369,10 @@
             <small>Ad &middot; &middot; &middot;</small>
             <p>I want a job at the Goldman Sachs</p>
             <div>
-                <img src="$src/images/user-1.png">
-                <img src="$src/images/mi-logo.png">
+                <img src="static/favicon.png" alt="Svelte">
+                <img src="static/favicon.png" alt="Svelte">
             </div>
-            <b>Brand and demand in Xiaomi</b>
+            <b>Find a job at a top Bank</b>
             <a href="#" class="ad-link">Learn More</a>
         </div>
         <div class="sidebar-useful-links">
@@ -387,7 +385,7 @@
             <a href="#">More</a>
 
             <div class="copyright-msg">
-                <img src="$src/images/logo.png">
+                <img src="static/favicon.png" alt="Svelte">
                 <p>Linkedup &#169; 2023. All right reserved</p>
             </div>
         </div>
