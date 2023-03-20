@@ -1,10 +1,7 @@
-<script>
-//    import notification.svg from '$src/images/notification.svg';
-</script>
-
+<!---NAVBAR-->
 <nav class="navbar">
     <div class="navbar-left">
-        <a href="index.html" class="logo"><img src="images/Logo.png"></a>
+        <a href="index.html" class="logo"><img src="$src/images/Logo.png"></a>
         <div class="search-box">
             <img src="images/search.png">
             <input type="text" placeholder="Search">
@@ -12,27 +9,419 @@
     </div>
     <div class="navbar-center">
         <ul>
-            <li><a href="#" class="active-link"><img src="images/home.png"><span>Home</span></a></li>
-            <li><a href="#"><img src="images/network.png"><span>My Network</span></a></li>
-            <li><a href="#"><img src="images/jobs.png"><span>Jobs</span></a></li>
-            <li><a href="#"><img src="images/message.png"><span>Messaging</span></a></li>
-            <li><a href="#"><img src="lib/image/notification.svg"><span>Notifications</span></a></li>
+            <li><a href="#" class="active-link"><img src="$src/images/home.png"><span>Home Feed</span></a></li>
+            <li><a href="#"><img src="$src/images/network.png"><span>My Network</span></a></li>
+            <li><a href="#"><img src="$src/images/jobs.png"><span>Groups</span></a></li>
         </ul>
     </div>
     <div class="navbar-right">
         <div class="online">
-            <img src="images/user-1.png" class="nav-profile-img">
+            <img src="$src/images/user-1.png" class="nav-profile-img" onclick="toggleMenu()">
         </div>
     </div>
+
+    <!---Profile drop-down menu-->
+    <div class="profile-menu-wrap" id="profileMenu">
+        <div class="profile-menu">
+            <div class="user-info">
+                <img src="$src/images/user-1.png">
+                <div>
+                    <h3>Thomas Ribert</h3>
+                    <a href="#">See your profile</a>
+                </div>
+            </div>
+            <hr>
+            <a href="#" class="profile-menu-link">
+                <img src="$src/images/feedback.png">
+                <p>Give Feedback</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="$src/images/setting.png">
+                <p>Settings & Privacy</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="$src/images/help.png">
+                <p>Help & Support</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="$src/images/display.png">
+                <p>Display & Accessibility</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="$src/images/logout.png">
+                <p>Logout</p>
+                <span>></span>
+            </a>
+        </div>
+    </div>
+    <!---End Profile drop-down menu-->
+
 </nav>
+<!---END NAVBAR-->
+
+
+<div class="container">
+    
+    <!---LEFT-SIDEBAR-->
+    <div class="left-sidebar">
+        <div class="sidebar-profile-box">
+            <img src="$src/images/cover-pic.png" width="100%">
+            <div class="sidebar-profile-info">
+                <img src="$src/images/user-1.png">
+                <h1>Thomas Ribert</h1>
+                <h3>Private Equity Analyst at Naxicap Partners</h3>
+                <ul>
+                    <li>Your profile views <span>101</span></li>
+                    <li>Your post views <span>102</span></li>
+                    <li>Your connections <span>103</span></li>
+                </ul>
+            </div>
+            <div class="sidebar-profile-link">
+                <a href="#"><img src="$src/images/items.png">My items</a>
+                <a href="#"><img src="$src/images/premium.png">Try premium</a>
+            </div>
+        </div>
+        <div class="sidebar-activity">
+            <h3>RECENT</h3>
+            <a href="#"><img src="$src/images/recent.png">Web Development</a>
+            <a href="#"><img src="$src/images/recent.png">User Interface</a>
+            <a href="#"><img src="$src/images/recent.png">Online Learning</a>
+            <a href="#"><img src="$src/images/recent.png">Learn Online</a>
+            <a href="#"><img src="$src/images/recent.png">Code Better</a>
+            <a href="#"><img src="$src/images/recent.png">Group Learning</a>
+            <h3>GROUPS</h3>
+            <a href="#"><img src="$src/images/group.png">Web Design Group</a>
+            <a href="#"><img src="$src/images/group.png">HTML Group</a>
+            <a href="#"><img src="$src/images/group.png">CSS Group</a>
+            <a href="#"><img src="$src/images/group.png">Help Group</a>
+            <h3>HASHTAG</h3>
+            <a href="#"><img src="$src/images/hashtag.png">webdevelopment</a>
+            <a href="#"><img src="$src/images/hashtag.png">userinterface</a>
+            <a href="#"><img src="$src/images/hashtag.png">onlinelearning</a>
+            <div class="discover-more-link">
+                <a href="#">Discover more</a>
+            </div>
+        </div>
+    </div>
+    <!---END LEFT-SIDEBAR-->
+    
+    <!---MAIN-CONTENT-->
+    <div class="main-content">
+        
+        <div class="create-post">
+            <div class="create-post-input">
+                <img src="$src/images/user-1.png">
+                <textarea rows="2" placeholder="Write a new post"></textarea>
+            </div>
+            <div class="create-post-links">
+                <li><img src="$src/images/user-1.png">Photo</li>
+                <li><img src="$src/images/user-1.png">Video</li>
+                <li><img src="$src/images/user-1.png">Article</li>
+                <li><img src="$src/images/user-1.png">Post</li>
+            </div>
+        </div>
+        
+        <div class="sort-by">
+            <hr>
+            <p>Sort by: <span>top <img src="$src/images/user-1.png"></span></p>
+        </div>
+
+        <div class="post">
+            <div class="post-author">
+                <img src="$src/images/user-1.png">
+                <div>
+                    <h1>Thomas Ribert</h1>
+                    <small>Private Equity Analyst at Naxicap Partners</small>
+                    <small>3 hours ago</small>
+                </div>
+            </div>
+            <p>
+                SVB collapse is a failure in basic treasury management. And it raises questions:<br>
+                - Why would tech companies put all their money on the same bank?<br>
+                - Why can a bank take such a massive bet on US treasury interest rates?<br>
+                - Why can’t the government insure % of deposits instead of only $250k?<br>
+                As we are approaching Easter. Let’s remember not to put all our eggs in the same basket. It’s time for a new era of startup and tech industry financing, and it is going to be wild IMO. #svb #bankrun #management
+            </p>
+            <img src="$src/images/user-1.png" alt="SVB bank" width="100%">
+            
+            <div class="post-stats">
+                <div>
+                    <img src="$src/images/thumbsup.png">
+                    <img src="$src/images/love.png">
+                    <img src="$src/images/clap.png">
+                    <span class="liked-users">Estelle Louviot and 31 others</span>
+                </div>
+                <div>
+                    <span>22 comments &middot; 40 shares</span>
+                </div>
+            </div>
+            <div class="post-activity">
+                <div>
+                    <img src="$src/images/user-1.png" class="post-activity-user-icon">
+                    <img src="$src/images/down-arrow.png" class="post-activity-arrow-icon">
+                </div>
+                <div class="post-activity-link">
+                    <img src="$src/images/like.png">
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="$src/images/comment.png">
+                    <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="$src/images/share.png">
+                    <span>Share</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="$src/images/send.png">
+                    <span>Send</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-author">
+                <img src="$src/images/user-1.png">
+                <div>
+                    <h1>Thomas Ribert</h1>
+                    <small>Private Equity Analyst at Naxicap Partners</small>
+                    <small>3 hours ago</small>
+                </div>
+            </div>
+            <p>
+                SVB collapse is a failure in basic treasury management. And it raises questions:<br>
+                - Why would tech companies put all their money on the same bank?<br>
+                - Why can a bank take such a massive bet on US treasury interest rates?<br>
+                - Why can’t the government insure % of deposits instead of only $250k?<br>
+                As we are approaching Easter. Let’s remember not to put all our eggs in the same basket. It’s time for a new era of startup and tech industry financing, and it is going to be wild IMO. #svb #bankrun #management
+            </p>
+            <img src="$src/images/user-1.png" alt="SVB bank" width="100%">
+            
+            <div class="post-stats">
+                <div>
+                    <img src="$src/images/thumbsup.png">
+                    <img src="$src/images/love.png">
+                    <img src="$src/images/clap.png">
+                    <span class="liked-users">Estelle Louviot and 31 others</span>
+                </div>
+                <div>
+                    <span>22 comments &middot; 40 shares</span>
+                </div>
+            </div>
+            <div class="post-activity">
+                <div>
+                    <img src="$src/images/user-1.png" class="post-activity-user-icon">
+                    <img src="$src/images/down-arrow.png" class="post-activity-arrow-icon">
+                </div>
+                <div class="post-activity-link">
+                    <img src="$src/images/like.png">
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="$src/images/comment.png">
+                    <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="$src/images/share.png">
+                    <span>Share</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="$src/images/send.png">
+                    <span>Send</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-author">
+                <img src="$src/images/user-1.png">
+                <div>
+                    <h1>Thomas Ribert</h1>
+                    <small>Private Equity Analyst at Naxicap Partners</small>
+                    <small>3 hours ago</small>
+                </div>
+            </div>
+            <p>
+                SVB collapse is a failure in basic treasury management. And it raises questions:<br>
+                - Why would tech companies put all their money on the same bank?<br>
+                - Why can a bank take such a massive bet on US treasury interest rates?<br>
+                - Why can’t the government insure % of deposits instead of only $250k?<br>
+                As we are approaching Easter. Let’s remember not to put all our eggs in the same basket. It’s time for a new era of startup and tech industry financing, and it is going to be wild IMO. #svb #bankrun #management
+            </p>
+            <img src="$src/images/user-1.png" alt="SVB bank" width="100%">
+            
+            <div class="post-stats">
+                <div>
+                    <img src="$src/images/thumbsup.png">
+                    <img src="$src/images/love.png">
+                    <img src="$src/images/clap.png">
+                    <span class="liked-users">Estelle Louviot and 31 others</span>
+                </div>
+                <div>
+                    <span>22 comments &middot; 40 shares</span>
+                </div>
+            </div>
+            <div class="post-activity">
+                <div>
+                    <img src="$src/images/user-1.png" class="post-activity-user-icon">
+                    <img src="$src/images/down-arrow.png" class="post-activity-arrow-icon">
+                </div>
+                <div class="post-activity-link">
+                    <img src="$src/images/like.png">
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="$src/images/comment.png">
+                    <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="$src/images/share.png">
+                    <span>Share</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="$src/images/send.png">
+                    <span>Send</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-author">
+                <img src="$src/images/user-1.png">
+                <div>
+                    <h1>Thomas Ribert</h1>
+                    <small>Private Equity Analyst at Naxicap Partners</small>
+                    <small>3 hours ago</small>
+                </div>
+            </div>
+            <p>
+                SVB collapse is a failure in basic treasury management. And it raises questions:<br>
+                - Why would tech companies put all their money on the same bank?<br>
+                - Why can a bank take such a massive bet on US treasury interest rates?<br>
+                - Why can’t the government insure % of deposits instead of only $250k?<br>
+                As we are approaching Easter. Let’s remember not to put all our eggs in the same basket. It’s time for a new era of startup and tech industry financing, and it is going to be wild IMO. #svb #bankrun #management
+            </p>
+            <img src="$src/images/user-1.png" alt="SVB bank" width="100%">
+            
+            <div class="post-stats">
+                <div>
+                    <img src="$src/images/thumbsup.png">
+                    <img src="$src/images/love.png">
+                    <img src="$src/images/clap.png">
+                    <span class="liked-users">Estelle Louviot and 31 others</span>
+                </div>
+                <div>
+                    <span>22 comments &middot; 40 shares</span>
+                </div>
+            </div>
+            <div class="post-activity">
+                <div>
+                    <img src="$src/images/user-1.png" class="post-activity-user-icon">
+                    <img src="$src/images/down-arrow.png" class="post-activity-arrow-icon">
+                </div>
+                <div class="post-activity-link">
+                    <img src="$src/images/like.png">
+                    <span>Like</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="$src/images/comment.png">
+                    <span>Comment</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="$src/images/share.png">
+                    <span>Share</span>
+                </div>
+                <div class="post-activity-link">
+                    <img src="$src/images/send.png">
+                    <span>Send</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!---END MAIN-CONTENT-->
+    
+    <!---RIGHT-SIDEBAR-->
+    <div class="right-sidebar">
+        <div class="sidebar-news">
+            <img src="$src/images/more.png" class="info-icon">
+            <h3>Trending News</h3>
+            <a href="#">Article 1</a>
+            <span>1h ago &middot; 1,000 readers</span>
+
+            <a href="#">Article 2</a>
+            <span>2d ago &middot; 1,001 readers</span>
+
+            <a href="#">Article 3</a>
+            <span>3d ago &middot; 1,002 readers</span>
+
+            <a href="#">Article 4</a>
+            <span>4d ago &middot; 1,003 readers</span>
+
+            <a href="#">Article 5</a>
+            <span>5d ago &middot; 1,004 readers</span>
+
+            <a href="#" class="read-more-link">Read More</a>
+        </div>
+        <div class="sidebar-ad">
+            <small>Ad &middot; &middot; &middot;</small>
+            <p>I want a job at the Goldman Sachs</p>
+            <div>
+                <img src="$src/images/user-1.png">
+                <img src="$src/images/mi-logo.png">
+            </div>
+            <b>Brand and demand in Xiaomi</b>
+            <a href="#" class="ad-link">Learn More</a>
+        </div>
+        <div class="sidebar-useful-links">
+            <a href="#">About</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Help Center</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Advertising</a>
+            <a href="#">Get the App</a>
+            <a href="#">More</a>
+
+            <div class="copyright-msg">
+                <img src="$src/images/logo.png">
+                <p>Linkedup &#169; 2023. All right reserved</p>
+            </div>
+        </div>
+    </div>
+    <!---END RIGHT-SIDEBAR-->
+
+</div>
+
+<script>
+    let profileMenu = document.getElementById("profileMenu");
+
+    function toggleMenu(){
+        profileMenu.classList.toggle("open-menu");
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
 
 <style lang="postcss">
-    
     :global(html) {
-      //background-color: theme(colors.gray.100);
+      background-color: theme(colors.gray.100);
     }
 
-    *{
+
+/*------ NAVBAR ------*/
+*{
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
@@ -150,7 +539,505 @@ a{
     outline: none;
     border: 0;
 }
+/*------ END NAVBAR ------*/
 
-/*------ navbar end ------*/
+
+/*------ PROFILE DROP DOWN MENU ------*/
+.profile-menu-wrap{
+    position: absolute;
+    top: 100%;
+    right: 5%;
+    width: 320px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.profile-menu-wrap.open-menu{
+    max-height: 400px;
+}
+
+.profile-menu{
+    background: #222;
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+}
+
+.user-info img{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.user-info h3{
+    font-weight: 500;
+    margin-bottom: -7px;
+}
+
+.user-info a{
+    color: #c9dbf8;
+    font-size: 13px;
+}
+
+.profile-menu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #fff;
+    margin: 15px 0 10px;
+}
+
+.profile-menu-link{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin: 12px 0;
+    font-size: 14px;
+}
+
+.profile-menu-link p{
+    width: 100%;
+}
+
+.profile-menu-link img{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+/*------ END PROFILE DROP DOWN MENU ------*/
+
+
+.container{
+    padding: 20px 6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/*------ LEFT SIDEBAR ------*/
+.left-sidebar{
+    flex-basis: 25%;
+    align-self: flex-start;
+    position: sticky;
+    top: 73px;
+}
+
+.sidebar-profile-box{
+    background: #fff;
+}
+
+.sidebar-profile-info{
+    padding: 0 25px;
+}
+
+.sidebar-profile-info img{
+    width: 90px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 4px;
+    margin-top: -45px;
+}
+
+.sidebar-profile-info h1{
+    font-size: 20px;
+    font-weight: 600;
+    color: #222;
+}
+
+.sidebar-profile-info h3{
+    font-size: 14px;
+    font-weight: 500;
+    color: #777;
+}
+
+.sidebar-profile-info ul{
+    list-style: none;
+    margin: 20px 0;
+}
+
+.sidebar-profile-info ul li{
+    width: 100%;
+    margin: 5px 0;
+    font-size: 13px;
+}
+
+.sidebar-profile-info ul li span{
+    float: right;
+    color: #045be6;
+}
+
+.sidebar-profile-link{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ccc;
+}
+
+.sidebar-profile-link a{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    font-size: 13px;
+    border-left: 1px solid #ccc;
+}
+
+.sidebar-profile-link a:first-child{
+    border-left: 0;
+}
+
+.sidebar-profile-link a img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.sidebar-activity{
+    background: #fff;
+    padding: 5px 25px;
+    margin: 12px 0;
+}
+
+.sidebar-activity h3{
+    color: #777;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 20px 0 10px;
+}
+
+.sidebar-activity a{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    color: #888;
+    margin: 3px 0;
+}
+
+.sidebar-activity a img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.discover-more-link{
+    border-top: 1px solid #ccc;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+.discover-more-link a{
+    color: #045be6;
+    display: inline-block;
+    margin: 10px 0;
+}
+/*------ END LEFT SIDEBAR ------*/
+
+
+/*------ MAIN CONTENT ------*/
+.main-content{
+    flex-basis: 47%;
+}
+
+.create-post{
+    background: #fff;
+}
+
+.create-post-input{
+    padding: 20px 25px 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.create-post-input img{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.create-post-input textarea{
+    width: 100%;
+    border:0;
+    outline: 0;
+    resize: none;
+    background: transparent;
+    margin-top: 8px;
+}
+
+::placeholder{
+    font-weight: 500;
+}
+
+.create-post-links{
+    display: flex;
+    align-items: flex-start;
+}
+
+.create-post-links li {
+    list-style: none;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    flex-basis: 25%;
+    height: 40px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.create-post-links li img{
+    width: 15px;
+    margin-right: 5px;
+}
+
+.create-post-links li:last-child{
+    background: #045be6;
+    color: #fff;
+    border-top: 0;
+    border-right: 0;
+}
+
+.sort-by{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.sort-by hr{
+    flex: 1;
+    border: 0;
+    height: 1px;
+    background: #ccc;
+}
+
+.sort-by p{
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+.sort-by p span{
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.sort-by p span img{
+    width: 12px;
+    margin-left: 3px;
+}
+
+.post{
+    background: #fff;
+    padding: 20px 25px 5px;
+    margin: 5px 0 15px;
+}
+
+.post-author{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.post-author img{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.post-author h1{
+    font-size: 18px;
+    font-weight: 600;
+    color: #333; 
+}
+
+.post-author small{
+    display: block;
+    margin-bottom: -2px;
+}
+
+.post p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.post-stats{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 6px;
+}
+
+.post-stats div{
+    display: flex;
+    align-items: center;
+}
+
+.post-stats img{
+    width: 15px;
+    margin-right: -5px;
+}
+
+.liked-users{
+    margin-left: 10px;
+
+}
+
+.post-activity{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.post-activity div{
+    display: flex;
+    align-items: center;
+}
+
+.post-activity-user-icon{
+    width: 22px;
+    border-radius: 50%;    
+}
+
+.post-activity-arrow-icon{
+    width: 12px;
+    margin-left: 5px;    
+}
+
+.post-activity-link img{
+    width: 18px;
+    margin-right: 8px;
+}
+/*------ END MAIN CONTENT ------*/
+
+
+/*------ RIGHT SIDEBAR ------*/
+.right-sidebar{
+    flex-basis: 25%;
+    align-self: flex-start;
+    position: sticky;
+    top: 73px;
+}
+
+.sidebar-news{
+    background: #fff;
+    padding: 10px 25px;
+}
+
+.info-icon{
+    width: 15px;
+    float: right;
+    margin-top: 15px;
+}
+
+.sidebar-news h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin: 10px 0 30px;
+}
+
+.sidebar-news a{
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+
+.sidebar-news span{
+    font-size: 12px;
+}
+
+.sidebar-news .read-more-link{
+    color: #045be6;
+    font-weight: 500;
+    margin: 20px 0 10px;
+}
+
+.sidebar-ad{
+    background: #fff;
+    padding: 15px 25px;
+    text-align: center;
+    margin: 12px 0;
+    font-size: 12px;
+}
+
+.sidebar-ad img{
+    width: 60px;
+    border-radius: 50%;
+    margin: 4px;
+}
+
+.sidebar-ad small{
+    float: right;
+    font-weight: 500;   
+}
+.sidebar-ad p{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.sidebar-ad b{
+    display: block;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.ad-link{
+    display: inline-block;
+    border: 1px solid #045be6;
+    border-radius: 30px;
+    padding: 5px 15px;
+    color: #045be6;
+    font-weight: 500;
+    margin: 20px auto 10px;
+}
+
+.sidebar-useful-links{
+    padding: 15px 25px;
+    text-align: center;
+}
+
+.sidebar-useful-links a{
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+}
+
+.copyright-msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.copyright-msg img{
+    width: 18px;
+    margin-right: 4px;
+}
+/*------ END RIGHT SIDEBAR ------*/
+
+
+/*------ RESPONSIVENESS ------*/
+/*------ END RESPONSIVENESS ------*/
+
+
+
 
   </style>
